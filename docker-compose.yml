@@ -1,0 +1,8 @@
+version: "2"
+
+services:
+  app:
+    build: ./sample
+    container_name: services
+    ports:
+      - "3000:5005"
